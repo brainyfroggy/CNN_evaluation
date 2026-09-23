@@ -1,0 +1,17 @@
+torch
+torchvision
+torchsummary
+scikit-image
+scikit-learn
+scipy
+seaborn
+pandas
+numpy
+matplotlib
+Pillow
+# Required by logger.py (torch.utils.tensorboard.SummaryWriter), used by
+# train.py and train_regression.py:
+tensorboard
+# Required by dataloader.py's cls_dataloader (ImbalancedDatasetSampler), used
+# by train.py's classification pipeline:
+torchsampler
